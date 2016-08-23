@@ -9,7 +9,59 @@
   </head>
   <body>
     <div class="container">
-
+      <div class="">
+        <form class="form-group" >
+          <div class="form-group">
+            <label for="" class="form-label">Sellect Movie</label>
+            <select class="form-control select-movie">
+              <option>Star Wars</option>
+              <option>Finding Dory</option>
+              <option>Jason Bourne</option>
+              <option>Star Trek</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="" class="form-label">Sellect Type</label>
+            <select class="form-control select-threeD" >
+              <option value="true">ThreeD</option>
+              <option value="false">Regular</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="" class="form-label">Select Time</label>
+            <select class="form-control select-matinee" >
+              <option value="true">Matinee</option>
+              <option value="false">Showtime</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="" class="form-label">Select Age</label>
+            <select class="form-control select-ageRange" >
+              <option value="student">Student</option>
+              <option value="adult">Adult</option>
+              <option value="senior">Senior</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="" class="form-label">Select number of tickets</label>
+            <select class="form-control select-number" >
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+            </select>
+          </div><hr>
+          <button id="submit-btn" class="btn btn-primary" type="submit">Add to Cart</button>
+        </form>
+      </div>
+      <ul id="ticketPrices"></ul>
+      <h3 id="totalPrice"></h3>
     </div>
   </body>
 </html>
